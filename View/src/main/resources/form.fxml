@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="28.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="%_ChooseDifficulty" textAlignment="CENTER" wrappingWidth="255.83984375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="deleteButton" layoutX="156.0" layoutY="331.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="88.0" text="%_DeleteButton" />
+      <Button fx:id="easyButton" layoutX="106.0" layoutY="44.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="%_Easy" />
+      <Button fx:id="mediumButton" layoutX="106.0" layoutY="102.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="%_Medium" />
+      <Button fx:id="hardButton" layoutX="106.0" layoutY="159.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="%_Hard" />
+      <Button fx:id="exitButton" layoutX="106.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#exitClicked" prefHeight="50.0" prefWidth="100.0" text="%_Exit" />
+      <Button fx:id="loadButton" layoutX="106.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#loadClicked" prefHeight="50.0" prefWidth="100.0" text="%_Load" />
+      <Button fx:id="authorsButton" layoutX="56.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#authorsClicked" prefHeight="50.0" prefWidth="88.0" text="%_Authors" />
+      <ToggleButton fx:id="buttonLanguageEnglish" layoutX="56.0" layoutY="385.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="88.0" text="%_LanguageEnglish" textAlignment="CENTER" />
+      <ToggleButton fx:id="buttonLanguagePolish" layoutX="156.0" layoutY="385.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="88.0" text="%_LanguagePolish" textAlignment="CENTER" />
+   </children>
+</Pane>
